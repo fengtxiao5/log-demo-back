@@ -1,0 +1,1053 @@
+2023-01-18 09:53:38.927 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 9948 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 09:53:38.936 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 09:53:39.005 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 09:53:39.006 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 09:53:39.801 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 09:53:39.808 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 09:53:39.809 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 09:53:39.809 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 09:53:39.811 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 09:53:39.811 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 09:53:39.812 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 09:53:39.817 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 09:53:39.905 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 09:53:39.905 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 899 ms
+2023-01-18 09:53:40.042 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 09:53:40.169 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 09:53:40.186 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 09:53:40.210 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 09:53:40.212 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.611 seconds (JVM running for 3.148)
+2023-01-18 09:54:09.898 [http-nio-8080-exec-4] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 09:54:09.899 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 09:54:09.902 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-01-18 09:54:23.137 [http-nio-8080-exec-3] INFO  com.example.logdemo.Controller - aaa
+2023-01-18 09:56:32.444 [Thread-9] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 09:56:32.778 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 9948 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 09:56:32.778 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 09:56:33.062 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 09:56:33.063 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 09:56:33.063 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 09:56:33.063 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 09:56:33.064 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 09:56:33.064 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 09:56:33.064 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 09:56:33.064 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 09:56:33.168 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 09:56:33.168 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 387 ms
+2023-01-18 09:56:33.202 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 09:56:33.243 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 09:56:33.249 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 09:56:33.256 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 09:56:33.256 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 0.526 seconds (JVM running for 176.187)
+2023-01-18 09:56:33.257 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-01-18 09:56:37.033 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 09:56:37.033 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 09:56:37.037 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-01-18 09:56:48.159 [http-nio-8080-exec-4] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 09:57:00.711 [http-nio-8080-exec-3] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 09:57:59.605 [Thread-16] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 09:57:59.948 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 9948 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 09:57:59.948 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 09:58:00.300 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 09:58:00.301 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 09:58:00.301 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 09:58:00.301 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 09:58:00.301 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 09:58:00.302 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 09:58:00.302 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 09:58:00.302 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 09:58:00.401 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 09:58:00.401 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 450 ms
+2023-01-18 09:58:00.446 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 09:58:00.494 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 09:58:00.499 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 09:58:00.507 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 09:58:00.507 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 0.612 seconds (JVM running for 263.437)
+2023-01-18 09:58:00.509 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-01-18 09:58:10.416 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 09:58:10.416 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 09:58:10.419 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-01-18 09:58:10.420 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 09:59:51.572 [http-nio-8080-exec-5] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 09:59:56.326 [Thread-21] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 09:59:56.707 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 9948 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 09:59:56.714 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 09:59:57.048 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 09:59:57.049 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 09:59:57.049 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 09:59:57.049 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 09:59:57.049 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 09:59:57.049 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 09:59:57.049 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 09:59:57.050 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 09:59:57.132 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 09:59:57.133 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 415 ms
+2023-01-18 09:59:57.162 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 09:59:57.198 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 09:59:57.203 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 09:59:57.209 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 09:59:57.209 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 0.559 seconds (JVM running for 380.139)
+2023-01-18 09:59:57.210 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-01-18 09:59:59.370 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 09:59:59.370 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 09:59:59.371 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-01-18 09:59:59.372 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 10:00:09.842 [Thread-26] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 10:00:10.136 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 9948 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 10:00:10.136 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 10:00:10.387 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 10:00:10.388 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 10:00:10.389 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 10:00:10.389 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 10:00:10.389 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 10:00:10.389 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 10:00:10.389 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 10:00:10.389 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 10:00:10.468 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 10:00:10.469 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 331 ms
+2023-01-18 10:00:10.493 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 10:00:10.525 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 10:00:10.530 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 10:00:10.535 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 10:00:10.536 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 0.451 seconds (JVM running for 393.465)
+2023-01-18 10:00:10.536 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-01-18 10:00:57.871 [Thread-31] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 10:00:58.129 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 9948 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 10:00:58.129 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 10:00:58.404 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 10:00:58.404 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 10:00:58.405 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 10:00:58.405 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 10:00:58.405 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 10:00:58.405 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 10:00:58.405 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 10:00:58.405 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 10:00:58.500 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 10:00:58.500 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 369 ms
+2023-01-18 10:00:58.528 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 10:00:58.573 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 10:00:58.578 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 10:00:58.584 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 10:00:58.585 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 0.503 seconds (JVM running for 441.514)
+2023-01-18 10:00:58.585 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-01-18 10:01:03.698 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 10:01:03.699 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 10:01:03.700 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-01-18 10:01:03.700 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 10:01:31.668 [Thread-36] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 10:01:31.969 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 9948 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 10:01:31.969 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 10:01:32.247 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 10:01:32.247 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 10:01:32.247 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 10:01:32.247 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 10:01:32.248 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 10:01:32.248 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 10:01:32.248 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 10:01:32.248 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 10:01:32.340 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 10:01:32.340 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 369 ms
+2023-01-18 10:01:32.372 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 10:01:32.412 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 10:01:32.417 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 10:01:32.423 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 10:01:32.425 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 0.509 seconds (JVM running for 475.354)
+2023-01-18 10:01:32.425 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-01-18 10:01:35.631 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 10:01:35.632 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 10:01:35.633 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-01-18 10:01:35.633 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 10:33:49.049 [http-nio-8080-exec-4] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 10:39:41.840 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:13:40.701 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 3912 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:13:40.703 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:13:40.739 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 13:13:40.740 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 13:13:41.670 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:13:41.681 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:13:41.682 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:13:41.682 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:13:41.683 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:13:41.684 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:13:41.684 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:13:41.687 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:13:41.856 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:13:41.856 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1116 ms
+2023-01-18 13:13:41.936 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-01-18 13:13:41.962 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-18 13:15:48.985 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 12560 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:15:49.057 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:15:49.096 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 13:15:49.096 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 13:15:49.891 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:15:49.898 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:15:49.898 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:15:49.899 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:15:49.900 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:15:49.900 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:15:49.900 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:15:49.904 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:15:49.992 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:15:49.992 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 895 ms
+2023-01-18 13:15:50.035 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-01-18 13:15:50.047 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-18 13:16:17.517 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 1172 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:16:17.542 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:16:17.574 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 13:16:17.574 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 13:16:18.345 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:16:18.352 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:16:18.352 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:16:18.352 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:16:18.354 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:16:18.354 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:16:18.354 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:16:18.357 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:16:18.445 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:16:18.446 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 872 ms
+2023-01-18 13:16:18.489 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-01-18 13:16:18.502 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-18 13:16:31.904 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 8504 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:16:31.905 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:16:31.969 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 13:16:31.970 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 13:16:32.756 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:16:32.762 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:16:32.763 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:16:32.763 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:16:32.765 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:16:32.765 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:16:32.765 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:16:32.768 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:16:32.919 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:16:32.919 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 949 ms
+2023-01-18 13:16:32.970 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-01-18 13:16:32.984 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-18 13:17:48.895 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 1516 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:17:48.897 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:17:48.930 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 13:17:48.930 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 13:17:49.720 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:17:49.726 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:17:49.727 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:17:49.727 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:17:49.728 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:17:49.729 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:17:49.729 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:17:49.732 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:17:49.896 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:17:49.897 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 967 ms
+2023-01-18 13:17:49.951 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-01-18 13:17:49.965 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-18 13:18:42.854 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 17856 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:18:42.855 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:18:42.914 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 13:18:42.914 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 13:18:43.702 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:18:43.708 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:18:43.709 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:18:43.709 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:18:43.711 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:18:43.711 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:18:43.711 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:18:43.714 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:18:43.870 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:18:43.870 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 956 ms
+2023-01-18 13:18:43.922 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-01-18 13:18:43.934 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-18 13:19:57.037 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 8392 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:19:57.039 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:19:57.072 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 13:19:57.072 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 13:19:57.861 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:19:57.867 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:19:57.867 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:19:57.867 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:19:57.869 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:19:57.869 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:19:57.869 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:19:57.873 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:19:58.026 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:19:58.026 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 954 ms
+2023-01-18 13:19:58.077 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-01-18 13:19:58.095 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-18 13:20:33.890 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 17328 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:20:33.892 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:20:33.947 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 13:20:33.947 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 13:20:34.720 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:20:34.726 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:20:34.726 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:20:34.726 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:20:34.728 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:20:34.728 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:20:34.728 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:20:34.731 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:20:34.886 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:20:34.886 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 939 ms
+2023-01-18 13:20:34.937 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-01-18 13:20:34.951 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-18 13:22:29.416 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 14124 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:22:29.419 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:22:29.455 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 13:22:29.455 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 13:22:30.265 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:22:30.272 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:22:30.273 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:22:30.273 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:22:30.275 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:22:30.275 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:22:30.275 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:22:30.278 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:22:30.431 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:22:30.431 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 976 ms
+2023-01-18 13:22:30.483 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-01-18 13:22:30.496 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-18 13:23:33.941 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 18372 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:23:33.945 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:23:33.997 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 13:23:33.998 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 13:23:35.141 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:23:35.149 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:23:35.149 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:23:35.150 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:23:35.152 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:23:35.152 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:23:35.152 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:23:35.156 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:23:35.393 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:23:35.393 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1395 ms
+2023-01-18 13:23:35.749 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:23:35.947 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 13:23:35.970 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:23:36.004 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 13:23:36.007 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 2.533 seconds (JVM running for 4.282)
+2023-01-18 13:23:44.405 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 13:23:44.405 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 13:23:44.412 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2023-01-18 13:23:44.433 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 13:29:24.624 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:29:31.732 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 1224 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:29:31.735 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:29:31.784 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 13:29:31.785 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 13:29:32.915 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:29:32.923 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:29:32.923 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:29:32.923 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:29:32.925 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:29:32.926 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:29:32.926 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:29:32.931 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:29:33.159 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:29:33.159 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1374 ms
+2023-01-18 13:29:33.503 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:29:33.710 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 13:29:33.734 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:29:33.769 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 13:29:33.772 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 2.525 seconds (JVM running for 4.3)
+2023-01-18 13:29:39.261 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 13:29:39.262 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 13:29:39.266 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-01-18 13:29:39.285 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 13:30:51.394 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:30:58.868 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 10220 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:30:58.872 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:30:58.915 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 13:30:58.915 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 13:31:00.071 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:31:00.078 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:31:00.079 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:31:00.079 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:31:00.081 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:31:00.081 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:31:00.081 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:31:00.085 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:31:00.306 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:31:00.307 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1392 ms
+2023-01-18 13:31:00.377 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-01-18 13:31:00.395 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-18 13:31:17.085 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 17804 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:31:17.088 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:31:17.134 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 13:31:17.134 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 13:31:18.280 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:31:18.288 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:31:18.289 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:31:18.289 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:31:18.291 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:31:18.291 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:31:18.291 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:31:18.296 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:31:18.513 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:31:18.513 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1379 ms
+2023-01-18 13:31:18.821 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:31:19.025 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 13:31:19.049 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:31:19.084 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 13:31:19.087 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 2.437 seconds (JVM running for 4.168)
+2023-01-18 13:31:28.579 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 13:31:28.579 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 13:31:28.583 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-01-18 13:31:28.600 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 13:31:54.025 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:32:02.230 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 12064 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:32:02.263 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:32:02.316 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 13:32:02.316 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 13:32:03.480 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:32:03.489 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:32:03.490 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:32:03.490 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:32:03.493 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:32:03.493 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:32:03.493 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:32:03.497 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:32:03.764 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:32:03.764 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1448 ms
+2023-01-18 13:32:04.219 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:32:04.461 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 13:32:04.490 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:32:04.531 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 13:32:04.536 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 2.793 seconds (JVM running for 5.199)
+2023-01-18 13:32:56.092 [Thread-12] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:32:56.659 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 12064 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:32:56.660 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:32:57.479 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:32:57.481 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:32:57.481 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:32:57.481 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:32:57.481 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:32:57.482 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:32:57.482 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:32:57.482 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:32:57.677 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:32:57.678 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1014 ms
+2023-01-18 13:32:57.809 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:32:57.928 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 13:32:57.942 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:32:57.951 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 13:32:57.952 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.379 seconds (JVM running for 58.616)
+2023-01-18 13:32:57.954 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-01-18 13:33:12.634 [Thread-19] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:33:13.160 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 12064 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:33:13.161 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:33:13.808 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:33:13.809 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:33:13.809 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:33:13.809 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:33:13.810 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:33:13.810 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:33:13.810 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:33:13.810 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:33:14.020 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:33:14.020 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 854 ms
+2023-01-18 13:33:14.127 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:33:14.253 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 13:33:14.262 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:33:14.271 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 13:33:14.272 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.214 seconds (JVM running for 74.936)
+2023-01-18 13:33:14.273 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-01-18 13:33:16.669 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:33:22.163 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 17260 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:33:22.168 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:33:22.241 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 13:33:22.241 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 13:33:23.604 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:33:23.612 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:33:23.612 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:33:23.612 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:33:23.614 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:33:23.614 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:33:23.615 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:33:23.619 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:33:23.887 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:33:23.888 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1647 ms
+2023-01-18 13:33:24.215 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:33:24.415 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 13:33:24.439 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:33:24.474 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 13:33:24.477 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 2.933 seconds (JVM running for 5.567)
+2023-01-18 13:33:27.788 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 13:33:27.789 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 13:33:27.793 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-01-18 13:33:27.811 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 13:38:27.778 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:38:34.805 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 17220 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:38:34.844 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:38:34.893 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 13:38:34.893 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 13:38:35.951 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:38:35.963 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:38:35.964 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:38:35.964 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:38:35.966 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:38:35.967 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:38:35.967 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:38:35.972 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:38:36.195 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:38:36.196 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1303 ms
+2023-01-18 13:38:36.498 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:38:36.687 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 13:38:36.707 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:38:36.743 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 13:38:36.745 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 2.358 seconds (JVM running for 3.996)
+2023-01-18 13:38:40.489 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 13:38:40.490 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 13:38:40.493 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-01-18 13:38:40.509 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 13:38:54.447 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:38:59.354 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 8320 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 13:38:59.357 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 13:38:59.396 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 13:38:59.397 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 13:39:00.399 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 13:39:00.406 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:39:00.407 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 13:39:00.407 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 13:39:00.409 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 13:39:00.409 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 13:39:00.409 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 13:39:00.413 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 13:39:00.616 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 13:39:00.617 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1220 ms
+2023-01-18 13:39:00.907 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 13:39:01.092 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 13:39:01.111 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 13:39:01.140 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 13:39:01.142 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 2.233 seconds (JVM running for 3.783)
+2023-01-18 13:39:03.907 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 13:39:03.907 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 13:39:03.911 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-01-18 13:39:03.930 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 14:10:56.959 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:11:01.130 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 9984 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:11:01.132 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:11:01.166 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:11:01.167 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:11:02.003 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:11:02.010 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:11:02.010 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:11:02.010 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:11:02.013 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:11:02.013 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:11:02.013 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:11:02.017 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:11:02.189 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:11:02.190 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1023 ms
+2023-01-18 14:11:02.440 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:11:02.593 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:11:02.610 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:11:02.635 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:11:02.637 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.84 seconds (JVM running for 3.021)
+2023-01-18 14:11:10.931 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:11:14.724 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 19352 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:11:14.727 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:11:14.760 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:11:14.760 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:11:15.565 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:11:15.572 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:11:15.572 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:11:15.572 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:11:15.574 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:11:15.574 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:11:15.574 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:11:15.577 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:11:15.748 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:11:15.748 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 988 ms
+2023-01-18 14:11:16.009 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:11:16.166 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:11:16.184 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:11:16.209 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:11:16.211 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.84 seconds (JVM running for 3.047)
+2023-01-18 14:11:31.944 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:11:35.638 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 17712 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:11:35.664 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:11:35.698 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:11:35.698 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:11:36.526 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:11:36.533 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:11:36.533 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:11:36.533 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:11:36.535 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:11:36.535 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:11:36.535 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:11:36.538 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:11:36.701 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:11:36.701 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1003 ms
+2023-01-18 14:11:36.953 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:11:37.105 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:11:37.122 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:11:37.147 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:11:37.149 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.834 seconds (JVM running for 2.963)
+2023-01-18 14:11:42.897 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 14:11:42.897 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 14:11:42.900 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-01-18 14:11:42.916 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 14:13:41.204 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:13:46.782 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 18444 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:13:46.785 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:13:46.818 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:13:46.818 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:13:47.624 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:13:47.630 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:13:47.630 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:13:47.630 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:13:47.632 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:13:47.632 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:13:47.632 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:13:47.636 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:13:47.817 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:13:47.818 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1000 ms
+2023-01-18 14:13:48.099 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:13:48.335 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:13:48.358 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:13:48.388 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:13:48.390 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.994 seconds (JVM running for 3.119)
+2023-01-18 14:14:02.418 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 14:14:02.418 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 14:14:02.424 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2023-01-18 14:14:02.438 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 14:21:28.804 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:21:38.056 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 19408 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:21:38.059 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:21:38.116 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:21:38.117 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:21:38.916 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:21:38.923 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:21:38.923 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:21:38.923 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:21:38.925 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:21:38.925 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:21:38.925 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:21:38.929 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:21:39.083 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:21:39.083 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 966 ms
+2023-01-18 14:21:39.331 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:21:39.484 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:21:39.500 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:21:39.524 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:21:39.526 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.755 seconds (JVM running for 2.888)
+2023-01-18 14:22:45.042 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 14:22:45.042 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 14:22:45.046 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-01-18 14:22:45.060 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 14:23:28.262 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:23:32.117 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 2532 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:23:32.120 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:23:32.177 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:23:32.177 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:23:32.989 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:23:32.996 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:23:32.996 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:23:32.996 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:23:32.998 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:23:32.999 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:23:32.999 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:23:33.002 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:23:33.167 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:23:33.167 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 990 ms
+2023-01-18 14:23:33.422 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:23:33.589 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:23:33.607 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:23:33.633 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:23:33.636 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.817 seconds (JVM running for 2.928)
+2023-01-18 14:23:45.939 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 14:23:45.940 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 14:23:45.944 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-01-18 14:23:45.958 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 14:27:09.600 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:33:38.297 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 12636 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:33:38.299 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:33:38.331 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:33:38.331 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:33:39.117 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:33:39.124 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:33:39.125 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:33:39.125 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:33:39.126 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:33:39.127 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:33:39.127 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:33:39.130 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:33:39.285 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:33:39.285 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 954 ms
+2023-01-18 14:33:39.529 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:33:39.682 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:33:39.698 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:33:39.724 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:33:39.726 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.75 seconds (JVM running for 3.034)
+2023-01-18 14:33:54.341 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 14:33:54.341 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 14:33:54.346 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2023-01-18 14:33:54.359 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 14:34:29.394 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:34:33.129 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 19364 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:34:33.131 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:34:33.187 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:34:33.187 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:34:33.959 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:34:33.965 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:34:33.966 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:34:33.966 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:34:33.968 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:34:33.968 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:34:33.968 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:34:33.972 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:34:34.127 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:34:34.128 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 941 ms
+2023-01-18 14:34:34.373 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:34:34.527 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:34:34.543 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:34:34.567 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:34:34.569 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.736 seconds (JVM running for 2.786)
+2023-01-18 14:34:40.619 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 14:34:40.619 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 14:34:40.623 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-01-18 14:34:40.638 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 14:36:43.721 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:36:47.408 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 14688 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:36:47.411 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:36:47.443 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:36:47.443 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:36:48.223 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:36:48.230 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:36:48.230 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:36:48.230 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:36:48.232 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:36:48.232 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:36:48.232 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:36:48.236 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:36:48.410 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:36:48.410 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 967 ms
+2023-01-18 14:36:48.749 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:36:48.865 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:36:48.881 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:36:48.905 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:36:48.907 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.835 seconds (JVM running for 2.891)
+2023-01-18 14:36:53.462 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 14:36:53.463 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 14:36:53.467 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-01-18 14:36:53.481 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 14:36:53.498 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-18 14:38:07.520 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:38:17.056 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 15128 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:38:17.091 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:38:17.142 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:38:17.143 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:38:17.982 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:38:17.989 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:38:17.989 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:38:17.989 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:38:17.991 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:38:17.992 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:38:17.992 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:38:17.995 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:38:18.187 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:38:18.187 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1044 ms
+2023-01-18 14:38:18.526 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:38:18.669 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:38:18.686 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:38:18.711 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:38:18.713 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 2.118 seconds (JVM running for 3.393)
+2023-01-18 14:44:21.454 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 14:44:21.454 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 14:44:21.459 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2023-01-18 14:44:21.476 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 14:44:21.492 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-18 14:51:23.446 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:51:27.338 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 18116 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:51:27.341 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:51:27.372 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:51:27.373 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:51:28.158 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:51:28.164 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:51:28.164 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:51:28.164 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:51:28.166 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:51:28.166 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:51:28.166 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:51:28.170 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:51:28.332 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:51:28.332 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 959 ms
+2023-01-18 14:51:28.663 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:51:28.781 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:51:28.797 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:51:28.822 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:51:28.824 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.799 seconds (JVM running for 2.894)
+2023-01-18 14:51:34.289 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 14:51:34.289 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 14:51:34.293 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-01-18 14:51:34.306 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 14:51:34.318 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-18 14:51:45.290 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:51:48.985 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 2044 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:51:48.988 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:51:49.025 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:51:49.025 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:51:49.887 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:51:49.894 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:51:49.895 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:51:49.895 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:51:49.897 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:51:49.897 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:51:49.897 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:51:49.900 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:51:50.062 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:51:50.063 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1037 ms
+2023-01-18 14:51:50.420 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:51:50.542 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:51:50.557 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:51:50.582 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:51:50.585 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.981 seconds (JVM running for 3.136)
+2023-01-18 14:52:12.355 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 14:52:12.356 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 14:52:12.359 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-01-18 14:52:12.374 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 14:52:12.385 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-18 14:52:32.905 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:52:36.783 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 18044 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:52:36.785 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:52:36.819 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:52:36.819 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:52:37.640 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:52:37.646 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:52:37.647 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:52:37.647 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:52:37.648 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:52:37.649 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:52:37.649 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:52:37.652 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:52:37.824 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:52:37.824 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1005 ms
+2023-01-18 14:52:38.153 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:52:38.280 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:52:38.297 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:52:38.325 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:52:38.327 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.874 seconds (JVM running for 2.985)
+2023-01-18 14:52:38.907 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 14:52:38.907 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 14:52:38.911 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-01-18 14:52:38.926 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 14:52:38.938 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-18 14:54:51.792 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:54:55.558 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 14120 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:54:55.561 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:54:55.593 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:54:55.593 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:54:56.378 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:54:56.384 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:54:56.385 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:54:56.385 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:54:56.387 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:54:56.387 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:54:56.387 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:54:56.390 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:54:56.550 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:54:56.551 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 957 ms
+2023-01-18 14:54:56.919 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:54:57.044 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:54:57.062 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:54:57.087 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:54:57.089 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.855 seconds (JVM running for 2.921)
+2023-01-18 14:55:03.625 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 14:55:03.625 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 14:55:03.629 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-01-18 14:55:03.645 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 14:55:03.657 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-18 14:55:04.389 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-01-18 14:55:04.438 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-18 14:55:22.080 [Thread-10] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:55:22.081 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-01-18 14:55:22.087 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-01-18 14:55:22.431 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 14120 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:55:22.431 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:55:22.859 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:55:22.860 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:55:22.860 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:55:22.860 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:55:22.860 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:55:22.860 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:55:22.860 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:55:22.860 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:55:22.990 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:55:22.990 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 556 ms
+2023-01-18 14:55:23.090 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:55:23.171 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:55:23.179 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:55:23.186 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:55:23.187 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 0.815 seconds (JVM running for 29.02)
+2023-01-18 14:55:23.188 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-01-18 14:55:37.457 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:55:41.005 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 19208 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:55:41.031 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:55:41.063 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:55:41.063 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:55:41.854 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:55:41.861 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:55:41.861 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:55:41.861 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:55:41.863 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:55:41.863 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:55:41.863 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:55:41.867 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:55:42.030 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:55:42.030 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 967 ms
+2023-01-18 14:55:42.366 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:55:42.484 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:55:42.502 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:55:42.527 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:55:42.529 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.83 seconds (JVM running for 2.922)
+2023-01-18 14:55:45.266 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 14:55:45.267 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 14:55:45.271 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-01-18 14:55:45.286 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 14:55:45.300 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-18 14:55:46.074 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-01-18 14:55:46.122 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-18 14:56:40.482 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:56:40.483 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-01-18 14:56:40.489 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-01-18 14:56:45.661 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 18664 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:56:45.663 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:56:45.696 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:56:45.696 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:56:46.540 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:56:46.547 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:56:46.547 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:56:46.547 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:56:46.549 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:56:46.549 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:56:46.549 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:56:46.554 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:56:46.722 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:56:46.723 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1027 ms
+2023-01-18 14:56:46.971 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:56:47.128 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:56:47.147 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:56:47.171 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:56:47.173 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.836 seconds (JVM running for 2.932)
+2023-01-18 14:56:54.425 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 14:56:54.425 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 14:56:54.429 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-01-18 14:56:54.444 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 14:57:36.818 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:57:40.477 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 18756 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:57:40.479 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:57:40.539 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:57:40.539 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:57:41.320 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:57:41.327 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:57:41.327 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:57:41.327 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:57:41.329 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:57:41.329 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:57:41.329 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:57:41.333 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:57:41.489 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:57:41.489 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 950 ms
+2023-01-18 14:57:41.817 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:57:41.936 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:57:41.951 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:57:41.975 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:57:41.977 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.792 seconds (JVM running for 2.837)
+2023-01-18 14:58:20.518 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:58:24.382 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 17660 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 14:58:24.385 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 14:58:24.417 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 14:58:24.417 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 14:58:25.263 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 14:58:25.271 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:58:25.271 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 14:58:25.272 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 14:58:25.273 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 14:58:25.274 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 14:58:25.274 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 14:58:25.277 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 14:58:25.443 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 14:58:25.443 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1026 ms
+2023-01-18 14:58:25.798 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 14:58:25.917 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 14:58:25.933 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 14:58:25.958 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 14:58:25.960 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.921 seconds (JVM running for 3.017)
+2023-01-18 15:08:31.681 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 15:08:31.681 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 15:08:31.686 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2023-01-18 15:08:31.701 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 15:08:31.714 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-18 15:08:32.411 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-01-18 15:08:32.454 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-18 15:08:57.587 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 15:08:57.587 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-01-18 15:08:57.591 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-01-18 15:09:01.358 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 18868 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 15:09:01.360 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 15:09:01.391 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 15:09:01.391 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 15:09:02.187 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 15:09:02.193 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 15:09:02.193 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 15:09:02.193 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 15:09:02.195 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 15:09:02.195 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 15:09:02.196 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 15:09:02.199 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 15:09:02.367 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 15:09:02.367 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 976 ms
+2023-01-18 15:09:02.725 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 15:09:02.860 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 15:09:02.875 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 15:09:02.904 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 15:09:02.906 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.887 seconds (JVM running for 2.946)
+2023-01-18 15:09:18.077 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 15:09:27.304 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 19424 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-18 15:09:27.307 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-18 15:09:27.365 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-18 15:09:27.365 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-18 15:09:28.176 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-18 15:09:28.182 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-18 15:09:28.182 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-18 15:09:28.183 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-18 15:09:28.184 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-18 15:09:28.184 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-18 15:09:28.184 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-18 15:09:28.188 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-18 15:09:28.347 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-18 15:09:28.347 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 981 ms
+2023-01-18 15:09:28.688 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-18 15:09:28.809 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-18 15:09:28.825 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-18 15:09:28.848 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-18 15:09:28.851 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.864 seconds (JVM running for 3.036)
+2023-01-18 15:12:02.467 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-18 15:12:02.468 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-18 15:12:02.473 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2023-01-18 15:12:02.491 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 15:12:02.504 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-18 15:12:03.109 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-01-18 15:12:03.151 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-18 15:32:15.994 [http-nio-8080-exec-4] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-18 15:32:16.022 [http-nio-8080-exec-4] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-18 17:50:49.359 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-18 17:50:49.361 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-01-18 17:50:49.370 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,408 @@
+2023-01-19 15:36:37.376 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 1680 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-19 15:36:37.376 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-19 15:36:37.422 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-19 15:36:37.422 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-19 15:36:38.361 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-19 15:36:38.361 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-19 15:36:38.361 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-19 15:36:38.361 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-19 15:36:38.377 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-19 15:36:38.377 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-19 15:36:38.377 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-19 15:36:38.377 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-19 15:36:38.549 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-19 15:36:38.549 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1127 ms
+2023-01-19 15:36:38.924 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-19 15:36:39.050 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-19 15:36:39.066 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-19 15:36:39.081 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2023-01-19 15:36:39.081 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-01-19 15:36:39.097 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2023-01-19 15:36:39.097 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2023-01-19 15:36:39.097 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-01-19 15:36:39.113 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-19 15:40:16.709 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 5720 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-19 15:40:16.709 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-19 15:40:16.772 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-19 15:40:16.772 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-19 15:40:17.672 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-19 15:40:17.672 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-19 15:40:17.672 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-19 15:40:17.672 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-19 15:40:17.672 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-19 15:40:17.672 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-19 15:40:17.672 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-19 15:40:17.687 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-19 15:40:17.797 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-19 15:40:17.797 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1025 ms
+2023-01-19 15:40:18.157 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-19 15:40:18.282 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-19 15:40:18.297 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-19 15:40:18.331 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-19 15:40:18.331 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.966 seconds (JVM running for 3.111)
+2023-01-19 16:11:01.129 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-19 16:11:01.130 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-19 16:11:01.134 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-01-19 16:11:01.139 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:11:01.139 [http-nio-8080-exec-10] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:11:01.165 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-19 16:11:01.938 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-01-19 16:11:02.003 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:11:02.019 [http-nio-8080-exec-10] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:11:37.526 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:11:37.526 [http-nio-8080-exec-3] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:11:37.555 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:11:37.588 [http-nio-8080-exec-3] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:30:27.764 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:30:27.764 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-01-19 16:30:27.764 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-01-19 16:30:33.476 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 20344 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-19 16:30:33.476 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-19 16:30:33.538 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-19 16:30:33.538 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-19 16:30:34.386 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-19 16:30:34.386 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:30:34.386 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-19 16:30:34.386 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-19 16:30:34.386 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-19 16:30:34.386 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-19 16:30:34.386 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-19 16:30:34.401 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-19 16:30:34.558 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-19 16:30:34.558 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1020 ms
+2023-01-19 16:30:34.889 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:30:34.999 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-19 16:30:35.015 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:30:35.046 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-19 16:30:35.046 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.947 seconds (JVM running for 3.108)
+2023-01-19 16:30:56.458 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-19 16:30:56.459 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-19 16:30:56.460 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-01-19 16:30:56.476 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:30:56.476 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:30:56.493 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-19 16:30:57.060 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-01-19 16:30:57.109 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:30:57.138 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:31:00.280 [http-nio-8080-exec-4] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:31:00.280 [http-nio-8080-exec-3] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:31:00.308 [http-nio-8080-exec-4] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:31:00.308 [http-nio-8080-exec-3] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:31:56.277 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:31:56.277 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-01-19 16:31:56.277 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-01-19 16:32:01.816 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 19436 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-19 16:32:01.816 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-19 16:32:01.848 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-19 16:32:01.848 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-19 16:32:02.739 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-19 16:32:02.755 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:32:02.755 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-19 16:32:02.755 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-19 16:32:02.755 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-19 16:32:02.755 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-19 16:32:02.755 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-19 16:32:02.755 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-19 16:32:02.961 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-19 16:32:02.961 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1113 ms
+2023-01-19 16:32:03.367 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:32:03.476 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-19 16:32:03.492 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:32:03.523 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-19 16:32:03.523 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 2.067 seconds (JVM running for 3.484)
+2023-01-19 16:32:17.476 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-19 16:32:17.476 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-19 16:32:17.476 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-01-19 16:32:17.493 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:32:17.493 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:32:17.513 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-19 16:32:18.109 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-01-19 16:32:18.156 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:32:18.172 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:34:36.789 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:34:36.789 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-01-19 16:34:36.789 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-01-19 16:34:41.927 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 4400 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-19 16:34:41.927 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-19 16:34:41.989 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-19 16:34:41.989 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-19 16:34:42.839 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-19 16:34:42.839 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:34:42.854 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-19 16:34:42.854 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-19 16:34:42.854 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-19 16:34:42.854 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-19 16:34:42.854 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-19 16:34:42.854 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-19 16:34:43.042 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-19 16:34:43.042 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1053 ms
+2023-01-19 16:34:43.402 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:34:43.511 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-19 16:34:43.527 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:34:43.559 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-19 16:34:43.559 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 1.944 seconds (JVM running for 3.12)
+2023-01-19 16:35:06.642 [http-nio-8080-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-19 16:35:06.643 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-19 16:35:06.643 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-01-19 16:35:06.643 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:35:06.643 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:35:06.659 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:35:06.659 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:35:06.676 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-19 16:35:07.310 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-01-19 16:35:07.357 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:35:07.372 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:35:11.007 [http-nio-8080-exec-4] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:35:11.007 [http-nio-8080-exec-3] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:35:11.008 [http-nio-8080-exec-4] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:35:11.008 [http-nio-8080-exec-3] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:35:11.026 [http-nio-8080-exec-4] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:35:11.042 [http-nio-8080-exec-3] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:36:48.917 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:36:48.917 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-01-19 16:36:48.933 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-01-19 16:36:54.249 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 6584 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-19 16:36:54.249 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-19 16:36:54.312 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-19 16:36:54.312 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-19 16:36:55.150 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-19 16:36:55.165 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:36:55.165 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-19 16:36:55.165 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-19 16:36:55.165 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-19 16:36:55.165 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-19 16:36:55.165 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-19 16:36:55.165 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-19 16:36:55.342 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-19 16:36:55.342 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1030 ms
+2023-01-19 16:36:55.738 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:36:55.914 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-19 16:36:55.926 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:36:55.957 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-19 16:36:55.957 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 2.041 seconds (JVM running for 3.173)
+2023-01-19 16:36:58.776 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-19 16:36:58.776 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-19 16:36:58.792 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2023-01-19 16:36:58.792 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:36:58.792 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:36:58.809 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:36:58.809 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:36:58.809 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-19 16:36:59.371 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-01-19 16:36:59.437 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:36:59.443 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:41:06.658 [http-nio-8080-exec-5] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:41:06.659 [http-nio-8080-exec-5] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:41:06.659 [http-nio-8080-exec-6] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:41:06.661 [http-nio-8080-exec-6] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:41:06.675 [http-nio-8080-exec-5] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:41:06.692 [http-nio-8080-exec-6] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:42:10.346 [http-nio-8080-exec-9] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:42:10.347 [http-nio-8080-exec-10] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:42:10.347 [http-nio-8080-exec-9] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:42:10.347 [http-nio-8080-exec-10] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:42:10.375 [http-nio-8080-exec-9] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:42:10.376 [http-nio-8080-exec-10] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:43:07.126 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:43:07.126 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:43:07.127 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:43:07.127 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:43:07.142 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:43:07.158 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:44:30.501 [http-nio-8080-exec-5] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:44:30.501 [http-nio-8080-exec-5] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:44:30.525 [http-nio-8080-exec-5] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:44:35.758 [http-nio-8080-exec-6] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:44:35.759 [http-nio-8080-exec-6] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:44:35.810 [http-nio-8080-exec-6] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:45:16.263 [http-nio-8080-exec-7] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:45:16.263 [http-nio-8080-exec-7] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:45:16.290 [http-nio-8080-exec-7] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:45:17.278 [http-nio-8080-exec-8] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:45:17.279 [http-nio-8080-exec-8] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:45:17.306 [http-nio-8080-exec-8] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:45:24.727 [http-nio-8080-exec-9] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:45:24.727 [http-nio-8080-exec-9] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:45:24.761 [http-nio-8080-exec-9] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:47:48.159 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:47:48.161 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:47:48.189 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:48:31.408 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:48:31.409 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:48:31.446 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:50:55.345 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:50:55.345 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-01-19 16:50:55.361 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-01-19 16:51:12.691 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 11948 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-19 16:51:12.707 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-19 16:51:12.754 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-19 16:51:12.754 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-19 16:51:14.006 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-19 16:51:14.006 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:51:14.006 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-19 16:51:14.006 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-19 16:51:14.022 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-19 16:51:14.022 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-19 16:51:14.022 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-19 16:51:14.022 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-19 16:51:14.303 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-19 16:51:14.303 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1549 ms
+2023-01-19 16:51:14.819 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:51:14.992 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-19 16:51:15.023 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:51:15.054 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-19 16:51:15.054 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 3.194 seconds (JVM running for 5.037)
+2023-01-19 16:51:18.291 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-19 16:51:18.291 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-19 16:51:18.291 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-01-19 16:51:18.291 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:51:18.308 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:51:18.324 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-19 16:51:19.073 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-01-19 16:51:19.128 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:51:23.148 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:51:23.149 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:51:23.184 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:51:58.162 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:51:58.162 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-01-19 16:51:58.162 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-01-19 16:52:07.309 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 17820 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-19 16:52:07.309 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-19 16:52:07.371 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-19 16:52:07.371 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-19 16:52:08.482 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-19 16:52:08.497 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:52:08.497 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-19 16:52:08.497 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-19 16:52:08.497 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-19 16:52:08.497 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-19 16:52:08.497 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-19 16:52:08.497 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-19 16:52:08.732 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-19 16:52:08.732 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1361 ms
+2023-01-19 16:52:09.233 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:52:09.389 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-19 16:52:09.420 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:52:09.452 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-19 16:52:09.452 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 2.667 seconds (JVM running for 4.57)
+2023-01-19 16:52:10.568 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-19 16:52:10.568 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-19 16:52:10.572 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-01-19 16:52:10.580 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:52:10.591 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:52:10.608 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-19 16:52:11.321 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-01-19 16:52:11.379 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:52:57.033 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:52:57.033 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-01-19 16:52:57.049 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-01-19 16:53:04.734 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 4152 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-19 16:53:04.765 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-19 16:53:04.828 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-19 16:53:04.828 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-19 16:53:06.246 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-19 16:53:06.262 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:53:06.262 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-19 16:53:06.262 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-19 16:53:06.262 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-19 16:53:06.262 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-19 16:53:06.262 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-19 16:53:06.262 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-19 16:53:06.512 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-19 16:53:06.512 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1684 ms
+2023-01-19 16:53:06.998 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:53:07.217 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-19 16:53:07.248 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:53:07.295 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-19 16:53:07.311 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 3.04 seconds (JVM running for 4.976)
+2023-01-19 16:53:18.858 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-19 16:53:18.858 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-19 16:53:18.858 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-01-19 16:53:18.874 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:53:18.874 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:53:18.891 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-19 16:53:19.628 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-01-19 16:53:19.674 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:53:23.205 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:53:23.207 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:53:23.243 [http-nio-8080-exec-2] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:53:41.264 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:53:41.264 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-01-19 16:53:41.280 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-01-19 16:53:48.796 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 8064 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-19 16:53:48.796 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-19 16:53:48.889 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-19 16:53:48.889 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-19 16:53:50.016 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-19 16:53:50.016 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:53:50.016 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-19 16:53:50.016 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-19 16:53:50.016 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-19 16:53:50.016 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-19 16:53:50.016 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-19 16:53:50.032 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-19 16:53:50.204 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-19 16:53:50.204 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1315 ms
+2023-01-19 16:53:50.691 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:53:50.863 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-19 16:53:50.879 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:53:50.926 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-19 16:53:50.926 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 2.567 seconds (JVM running for 4.457)
+2023-01-19 16:53:57.389 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-19 16:53:57.389 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-19 16:53:57.391 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-01-19 16:53:57.391 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:53:57.408 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:53:57.424 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-19 16:53:58.226 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-01-19 16:53:58.279 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:54:13.744 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:54:13.744 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-01-19 16:54:13.760 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-01-19 16:54:21.832 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Starting LogDemoApplication on fengtx45968 with PID 3984 (C:\Users\fengtx45968\IdeaProjects\log-demo\target\classes started by fengtx45968 in C:\Users\fengtx45968\IdeaProjects\log-demo)
+2023-01-19 16:54:21.832 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - No active profile set, falling back to default profiles: default
+2023-01-19 16:54:21.895 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-19 16:54:21.895 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-19 16:54:23.131 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-19 16:54:23.147 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:54:23.147 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-19 16:54:23.147 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2023-01-19 16:54:23.147 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+2023-01-19 16:54:23.147 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2023-01-19 16:54:23.147 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-01-19 16:54:23.147 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+2023-01-19 16:54:23.490 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring embedded WebApplicationContext
+2023-01-19 16:54:23.490 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1595 ms
+2023-01-19 16:54:24.415 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-19 16:54:24.945 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-19 16:54:24.977 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-01-19 16:54:25.023 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/test'
+2023-01-19 16:54:25.039 [restartedMain] INFO  com.example.logdemo.LogDemoApplication - Started LogDemoApplication in 3.791 seconds (JVM running for 5.718)
+2023-01-19 16:55:54.241 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/test] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-19 16:55:54.241 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-19 16:55:54.257 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2023-01-19 16:55:54.257 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:55:54.278 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:55:54.293 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-19 16:55:55.188 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-01-19 16:55:55.256 [http-nio-8080-exec-1] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:57:28.978 [http-nio-8080-exec-4] INFO  com.example.logdemo.test.filter.CustomFilter - origin:null
+2023-01-19 16:57:28.979 [http-nio-8080-exec-4] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:57:29.016 [http-nio-8080-exec-4] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:59:35.381 [http-nio-8080-exec-5] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:59:35.382 [http-nio-8080-exec-5] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:59:35.407 [http-nio-8080-exec-5] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:59:43.500 [http-nio-8080-exec-7] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:59:43.501 [http-nio-8080-exec-7] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:59:43.523 [http-nio-8080-exec-7] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 16:59:53.940 [http-nio-8080-exec-9] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 16:59:53.941 [http-nio-8080-exec-9] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 16:59:53.974 [http-nio-8080-exec-9] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 17:00:27.438 [http-nio-8080-exec-8] INFO  com.example.logdemo.test.filter.CustomFilter - origin:http://localhost:8091
+2023-01-19 17:00:27.440 [http-nio-8080-exec-8] INFO  com.example.logdemo.test.controller.LogController - aaa
+2023-01-19 17:00:27.474 [http-nio-8080-exec-8] INFO  com.example.logdemo.test.controller.LogController - [User [Hash = -1714564772, username=ffeeng, nickname=windjump, realname=windjump, password=123456, remark=, create_by=null, create_time=null, update_by=null, update_time=null, del_flag=1, serialVersionUID=1]]
+2023-01-19 17:37:44.440 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-19 17:37:44.440 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-01-19 17:37:44.440 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
