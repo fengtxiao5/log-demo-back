@@ -16,7 +16,7 @@
 
     <sql id="Base_Column_List">
         id,title,describe,
-        priority,category_id,remind_way,
+        priority,category_id,remind_way
         cron
     </sql>
 </mapper>
