@@ -1,13 +1,13 @@
 package com.example.logdemo.test.filter;
 
 
+import jakarta.servlet.*;
+import jakarta.servlet.annotation.WebFilter;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.servlet.*;
-import javax.servlet.annotation.WebFilter;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebFilter(filterName = "customFilter", urlPatterns = "/*")
@@ -35,11 +35,12 @@ public class CustomFilter implements Filter {
         if (httpRequest.getMethod().equalsIgnoreCase("options")) {
             return;
         }
-        try {
-            filterChain.doFilter(httpRequest, httpResponse);
-        } catch (Exception e){
-            logger.warn(e.getMessage() + " 可能原因：客户端已关闭连接。");
-        }
+        filterChain.doFilter(httpRequest, httpResponse);
+//        try {
+//
+//        } catch (Exception e){
+//            logger.warn(e.getMessage() + " 可能原因：客户端已关闭连接。");
+//        }
     }
 
     @Override

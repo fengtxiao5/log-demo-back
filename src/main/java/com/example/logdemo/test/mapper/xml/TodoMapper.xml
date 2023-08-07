@@ -7,7 +7,7 @@
     <resultMap id="BaseResultMap" type="com.example.logdemo.test.domain.Todo">
             <id property="id" column="id" jdbcType="VARCHAR"/>
             <result property="title" column="title" jdbcType="VARCHAR"/>
-            <result property="describe" column="describe" jdbcType="VARCHAR"/>
+            <result property="description" column="description" jdbcType="VARCHAR"/>
             <result property="priority" column="priority" jdbcType="INTEGER"/>
             <result property="category_id" column="category_id" jdbcType="VARCHAR"/>
             <result property="remind_way" column="remind_way" jdbcType="VARCHAR"/>
@@ -15,8 +15,11 @@
     </resultMap>
 
     <sql id="Base_Column_List">
-        id,title,describe,
+        id,title,description,
         priority,category_id,remind_way,
         cron
     </sql>
+    <select id="getAllTodoList" resultMap="BaseResultMap">
+        select * from todo
+    </select>
 </mapper>

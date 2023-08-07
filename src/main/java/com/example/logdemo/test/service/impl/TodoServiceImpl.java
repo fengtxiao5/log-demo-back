@@ -15,6 +15,10 @@ import org.springframework.stereotype.Service;
 public class TodoServiceImpl extends ServiceImpl<TodoMapper, Todo>
     implements TodoService {
 
+    public void printMethod() {
+        System.out.println("执行了");
+    }
+
 }
 
 

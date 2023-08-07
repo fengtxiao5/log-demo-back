@@ -28,8 +28,8 @@ public class Todo implements Serializable {
     /**
      * 
      */
-    @TableField(value = "describe")
-    private String describe;
+    @TableField(value = "description")
+    private String description;
 
     /**
      * 0-重要且紧急；1-重要不紧急；2-紧急不重要；3-不紧急不重要
@@ -72,7 +72,7 @@ public class Todo implements Serializable {
         Todo other = (Todo) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
             && (this.getTitle() == null ? other.getTitle() == null : this.getTitle().equals(other.getTitle()))
-            && (this.getDescribe() == null ? other.getDescribe() == null : this.getDescribe().equals(other.getDescribe()))
+            && (this.getDescription() == null ? other.getDescription() == null : this.getDescription().equals(other.getDescription()))
             && (this.getPriority() == null ? other.getPriority() == null : this.getPriority().equals(other.getPriority()))
             && (this.getCategory_id() == null ? other.getCategory_id() == null : this.getCategory_id().equals(other.getCategory_id()))
             && (this.getRemind_way() == null ? other.getRemind_way() == null : this.getRemind_way().equals(other.getRemind_way()))
@@ -85,7 +85,7 @@ public class Todo implements Serializable {
         int result = 1;
         result = prime * result + ((getId() == null) ? 0 : getId().hashCode());
         result = prime * result + ((getTitle() == null) ? 0 : getTitle().hashCode());
-        result = prime * result + ((getDescribe() == null) ? 0 : getDescribe().hashCode());
+        result = prime * result + ((getDescription() == null) ? 0 : getDescription().hashCode());
         result = prime * result + ((getPriority() == null) ? 0 : getPriority().hashCode());
         result = prime * result + ((getCategory_id() == null) ? 0 : getCategory_id().hashCode());
         result = prime * result + ((getRemind_way() == null) ? 0 : getRemind_way().hashCode());
@@ -101,7 +101,7 @@ public class Todo implements Serializable {
         sb.append("Hash = ").append(hashCode());
         sb.append(", id=").append(id);
         sb.append(", title=").append(title);
-        sb.append(", describe=").append(describe);
+        sb.append(", description=").append(description);
         sb.append(", priority=").append(priority);
         sb.append(", category_id=").append(category_id);
         sb.append(", remind_way=").append(remind_way);

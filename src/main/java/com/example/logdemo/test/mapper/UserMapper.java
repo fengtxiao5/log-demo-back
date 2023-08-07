@@ -2,6 +2,7 @@ package com.example.logdemo.test.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.example.logdemo.test.domain.User;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
@@ -11,7 +12,6 @@ import java.util.List;
 * @createDate 2023-01-18 10:53:25
 * @Entity generator.domain.UserMapper
 */
-
 public interface UserMapper extends BaseMapper<User> {
     List<User> selectAll();
 }

@@ -1,7 +1,7 @@
 package com.example.logdemo.test.service;
 
-import com.example.logdemo.test.domain.User;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.example.logdemo.test.domain.User;
 
 /**
 * @author fengtx45968

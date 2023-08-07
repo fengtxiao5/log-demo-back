@@ -2,6 +2,9 @@ package com.example.logdemo.test.mapper;
 
 import com.example.logdemo.test.domain.Todo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+
+import java.util.List;
 
 /**
 * @author Administrator
@@ -10,6 +13,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 * @Entity com.example.logdemo.test.domain.Todo
 */
 public interface TodoMapper extends BaseMapper<Todo> {
+    List<Todo> getAllTodoList();
 
 }
 
