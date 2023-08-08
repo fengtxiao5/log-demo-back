@@ -36,6 +36,7 @@ public class CustomFilter implements Filter {
             return;
         }
         filterChain.doFilter(httpRequest, httpResponse);
+        logger.info("链接1111");
 //        try {
 //
 //        } catch (Exception e){
