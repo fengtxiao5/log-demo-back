@@ -19,76 +19,44 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
-//import jakarta.annotation.Resource;
-//import org.mybatis.spring.annotation.MapperScan;
-//import org.springframework.boot.CommandLineRunner;
-//import org.springframework.boot.SpringApplication;
-//import org.springframework.boot.autoconfigure.SpringBootApplication;
-//import org.springframework.boot.web.servlet.ServletComponentScan;
-//import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-//import org.springframework.core.env.ConfigurableEnvironment;
-//import org.springframework.core.env.EnumerablePropertySource;
-//import org.springframework.core.env.MutablePropertySources;
-//
-//import java.util.Arrays;
-//import java.util.Collections;
-//import java.util.Comparator;
-//import java.util.Map;
-//import java.util.function.Function;
-//import java.util.stream.Collectors;
-//import java.util.stream.StreamSupport;
-//
-//@SpringBootApplication
-//@MapperScan(basePackages = {"com.example.logdemo.test.mapper"})
-//@ServletComponentScan(basePackages = {"com.example.logdemo.test"})
-//public class LogDemoApplication extends SpringBootServletInitializer implements CommandLineRunner {
-//
-//    @Resource
-//    private ConfigurableEnvironment springEnv;
-//
-//    public static void main(String[] args) {
-//        SpringApplication.run(LogDemoApplication.class, args);
-//    }
-//
-//    @Override
-//    public void run(String... args) throws Exception {
-//        MutablePropertySources propSrcs = springEnv.getPropertySources();
-//        // 获取所有配置
-//        Map<String, String> props = StreamSupport.stream(propSrcs.spliterator(), false)
-//                .filter(ps -> ps instanceof EnumerablePropertySource)
-//                .map(ps -> ((EnumerablePropertySource) ps).getPropertyNames())
-//                .flatMap(Arrays::stream)
-//                .distinct()
-//                .collect(Collectors.toMap(Function.identity(), springEnv::getProperty));
-//
-//        // key 和 value 之间的最小间隙
-//        int interval = 20;
-//        int max = props.keySet().stream()
-//                .max(Comparator.comparingInt(String::length))
-//                .orElse("")
-//                .length();
-//
-//        // 打印
-//        props.keySet().stream()
-//                .sorted()
-//                .forEach(k -> {
-//                    int i = max - k.length() + interval;
-//                    String join = String.join("", Collections.nCopies(i, " "));
-//                    System.out.println(String.format("%s%s%s", k, join, props.get(k)));
-//                });
-//    }
-//
-//}
 @SpringBootApplication
 @MapperScan(basePackages = {"com.example.logdemo.test.mapper"})
 @ServletComponentScan(basePackages = {"com.example.logdemo.test"})
-public class LogDemoApplication{
+public class LogDemoApplication extends SpringBootServletInitializer implements CommandLineRunner {
 
     @Resource
     private ConfigurableEnvironment springEnv;
 
     public static void main(String[] args) {
         SpringApplication.run(LogDemoApplication.class, args);
+    }
+
+    @Override
+    public void run(String... args) throws Exception {
+        MutablePropertySources propSrcs = springEnv.getPropertySources();
+        // 获取所有配置
+        Map<String, String> props = StreamSupport.stream(propSrcs.spliterator(), false)
+                .filter(ps -> ps instanceof EnumerablePropertySource)
+                .map(ps -> ((EnumerablePropertySource) ps).getPropertyNames())
+                .flatMap(Arrays::stream)
+                .distinct()
+                .collect(Collectors.toMap(Function.identity(), springEnv::getProperty));
+
+        // key 和 value 之间的最小间隙
+        int interval = 20;
+        int max = props.keySet().stream()
+                .max(Comparator.comparingInt(String::length))
+                .orElse("")
+                .length();
+
+        // 打印
+        props.keySet().stream()
+                .sorted()
+                .forEach(k -> {
+                    int i = max - k.length() + interval;
+                    String join = String.join("", Collections.nCopies(i, " "));
+                    System.out.println(String.format("%s%s%s", k, join, props.get(k)));
+                });
     }
 
 }
